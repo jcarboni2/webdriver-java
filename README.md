@@ -22,4 +22,4 @@ $ Before start your tests, you need to import all dependencies found on pom.xml 
 
 ## Author
 
-* **Johnny Henck** - *Project Updating* - https://github.com/jcarboni2/)
+* **Johnny Carboni** - *Project Updating* - https://github.com/jcarboni2/)
