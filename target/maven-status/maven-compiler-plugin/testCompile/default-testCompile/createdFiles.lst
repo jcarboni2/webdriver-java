@@ -1,0 +1,11 @@
+pages\BasePage.class
+support\Web.class
+support\Generator.class
+pages\LoginPage.class
+pages\SecretPage.class
+support\Screenshot.class
+pages\MePage.class
+pages\LoginFormPage.class
+tests\UserInfoPageObjectsTest.class
+pages\AddContactPage.class
+tests\UserInfoTest.class

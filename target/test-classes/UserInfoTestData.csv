@@ -1,0 +1,8 @@
+testAddUserAdditionalInfo,type,contact,message,Duration(ms),Duration(ms)
+"",Phone,+5511999991111,Your contact has been added!,967.0,967.0
+"",Phone,+5511999991112,Your contact has been added!,981.0,981.0
+"",E-mail,emailtest1@jch.com.br,Your contact has been added!,1001.0,1001.0
+"",E-mail,emailtest2@jch.com.br,Your contact has been added!,978.0,978.0
+removeUserContact,contact,message,Duration(ms),Duration(ms)
+"",+5511999991112,"Rest in peace, dear phone!",8668.0,8668.0
+"",emailtest1@jch.com.br,"Rest in peace, dear email!",8664.0,8664.0
