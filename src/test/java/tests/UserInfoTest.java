@@ -1,6 +1,6 @@
 package tests;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.easetech.easytest.annotation.DataLoader;
 import org.easetech.easytest.annotation.Param;
@@ -17,11 +17,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import support.Generator;
 import support.Screenshot;
 import support.Web;
-
-import java.io.StreamCorruptedException;
 
 @RunWith(DataDrivenTestRunner.class)
 @DataLoader(filePaths = "UserInfoTestData.csv")
