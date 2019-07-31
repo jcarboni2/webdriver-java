@@ -41,8 +41,8 @@ public class UserInfoTest {
         //Identify a Login form
         WebElement formSignInBox = browser.findElement(By.id("signinbox"));
 
-        //Type "jcarboni" text on field with "login" name within "signinbox" form id
-        formSignInBox.findElement(By.name("login")).sendKeys("jcarboni");
+        //Type registered user on field with "login" name within "signinbox" form id
+        formSignInBox.findElement(By.name("login")).sendKeys("username");
 
         //Type "123456" text on field with "password" name within "signinbox" form id
         formSignInBox.findElement(By.name("password")).sendKeys("123456");
@@ -50,10 +50,10 @@ public class UserInfoTest {
         //Click on link with "SIGN IN" text
         browser.findElement(By.linkText("SIGN IN")).click();
 
-        //Validate if "Hi, Johnny" text is found inside of element with class "me"
+        //Validate if "Hi, user" text is found inside of element with class "me"
         WebElement me = browser.findElement(By.className("me"));
         String textOnElementMe = me.getText();
-        assertEquals("Hi, Johnny", textOnElementMe);
+        assertEquals("Hi, user", textOnElementMe);
 
         //Click on link with "me" class
         browser.findElement(By.className("me")).click();

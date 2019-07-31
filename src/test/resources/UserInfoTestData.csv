@@ -1,8 +1,8 @@
 testAddUserAdditionalInfo,type,contact,message
-																									,Phone,+5511999991111,Your contact has been added!
+						 ,Phone,+5511999991111,Your contact has been added!
                          ,Phone,+5511999991112,Your contact has been added!
-																									,E-mail,emailtest1@jch.com.br,Your contact has been added!
-																									,E-mail,emailtest2@jch.com.br,Your contact has been added!
+						 ,E-mail,emailtest1@test.com.br,Your contact has been added!
+						 ,E-mail,emailtest2@test.com.br,Your contact has been added!
 removeUserContact,contact,message
-                     ,+5511999991112,"Rest in peace, dear phone!"
-                     ,emailtest1@jch.com.br,"Rest in peace, dear email!"
+                 ,+5511999991112,"Rest in peace, dear phone!"
+                 ,emailtest1@test.com.br,"Rest in peace, dear email!"
